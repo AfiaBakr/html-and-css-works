@@ -1,3 +1,3 @@
 HERE THE LINK OF NETLIFY
 
-https://app.netlify.com/projects/html-chessboard-by-afiabakr
+https://html-chessboard-by-afiabakr.netlify.app/
