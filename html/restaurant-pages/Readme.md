@@ -1,3 +1,3 @@
 here the link ofnetlify
 
-https://app.netlify.com/projects/saylany-restaurant-by-afia/
+https://saylany-restaurant-by-afia.netlify.app/
