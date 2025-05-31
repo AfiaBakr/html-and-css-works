@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A Student form" />
+    <meta name="keywords" content="form, html, table" />
+    <meta name="robots" content="nofollow" />
+    <meta http-equiv="author" content="Afia Bakr" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="valid-date-in-GMT-forma" />
+    <title>Student Form</title>
+  </head>
+  <body>
+    <center>
+      <h1>Student Form</h1>
+      <hr />
+      <br /><br />
+      <form action="./thanks.html">
+        <!-- upload pic -->
+        <fieldset style="width: 600px">
+          <table>
+            <legend>
+              Picture
+              <tr>
+                <td colspan="3" rowspan="3">
+                  <label for="pic"
+                    >Select image to upload
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+                  >
+                </td>
+                <td rowspan="3">:</td>
+
+                <td rowspan="3" colspan="3">
+                  <input
+                    type="file"
+                    id="pic" required
+                  />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+              </tr>
+            </legend>
+          </table>
+        </fieldset>
+        <br /><br /><br />
+        <!-- student informatin -->
+        <fieldset style="width: 600px">
+          <table>
+            <legend>
+              Student information
+
+              <tr>
+                <td><label for="fname" required>First Name</label></td>
+                <td>:</td>
+                <td><input type="text" id="fname" /></td>
+                <td></td>
+                <td><label for="lname" required>Last Name</label></td>
+                <td>:</td>
+                <td><input type="text" id="lname" /></td>
+              </tr>
+
+              <tr>
+                <td><label for="dob">Date of Birth</label></td>
+                <td>:</td>
+                <td><input type="date" id="dob" required/></td>
+                <td></td>
+                <td>Gender</td>
+                <td>:</td>
+                <td required>
+                  <label for="male"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      id="male"
+                      value="male"
+                      checked
+                    />Male</label
+                  >
+                  <label for="female"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      id="female"
+                      value="female"
+                    />Female</label
+                  >
+                </td>
+              </tr>
+
+              <tr>
+                <td><label for="bplace">Birth Place</label></td>
+                <td>:</td>
+                <td><input type="text" id="bplace" required/></td>
+                <td></td>
+                <td>
+                  <label for="nationality"
+                    >Nationality&nbsp;&nbsp;&nbsp;&nbsp;</label
+                  >
+                </td>
+                <td>:</td>
+                <td><input type="text" id="nationality" required/></td>
+              </tr>
+
+              <tr>
+                <td><label for="address">Address</label></td>
+                <td>:</td>
+                <td colspan="5">
+                  <input type="text" id="address" size=" 62" required/>
+                </td>
+              </tr>
+
+              <tr>
+                <td></td>
+                <td></td>
+                <td colspan="5">
+                  <label for="address"></label>
+                  <input type="text" id="address" size=" 62" />
+                </td>
+              </tr>
+
+              <tr>
+                <td><label for="email">E-mail</label></td>
+                <td>:</td>
+                <td><input type="email" id="email" required/></td>
+                <td></td>
+                <td><label for="password">Password</label></td>
+                <td>:</td>
+                <td><input type="password" id="password" required/></td>
+              </tr>
+            </legend>
+          </table>
+        </fieldset>
+        <br /><br /><br />
+
+        <!-- parents informatin -->
+        <fieldset style="width: 600px">
+          <table>
+            <legend>
+              Parents information
+              <tr>
+                <td><label for="fatname">Father Name</label></td>
+                <td>:</td>
+                <td><input type="text" id="fatname" required/></td>
+                <td></td>
+                <td><label for="mothname">Mother Name</label></td>
+                <td>:</td>
+                <td><input type="text" id="mothname" required/></td>
+              </tr>
+
+              <tr>
+                <td><label for="religion">Religion</label></td>
+                <td>:</td>
+                <td><input type="text" id="religion" required/></td>
+                <td></td>
+                <td><label for="sact">Sact</label></td>
+                <td>:</td>
+                <td><input type="text" id="sact" required/></td>
+              </tr>
+
+              <tr>
+                <td><label for="address11">Address</label></td>
+                <td>:</td>
+                <td colspan="5">
+                  <input type="text" id="address11" size=" 62" required/>
+                </td>
+              </tr>
+
+              <tr>
+                <td></td>
+                <td></td>
+                <td colspan="5">
+                  <input type="text" id="address" size=" 62" />
+                </td>
+              </tr>
+
+              <tr>
+                <td><label for="email1">E-mail</label></td>
+                <td>:</td>
+                <td><input type="email" id="email1" required/></td>
+                <td></td>
+                <td><label for="password1">Password</label></td>
+                <td>:</td>
+                <td><input type="password" id="password1" required/></td>
+              </tr>
+
+              <tr>
+                <td><label for="num1">Phone (Home)</label></td>
+                <td>:</td>
+                <td><input type="number" id="num1" required/></td>
+                <td></td>
+                <td><label for="num2">Phone (Off)</label></td>
+                <td>:</td>
+                <td><input type="tel" id="num2" required/></td>
+              </tr>
+            </legend>
+          </table>
+        </fieldset>
+        <br /><br /><br />
+        <!-- student curriculum -->
+        <fieldset style="width: 600px">
+          <table>
+            <legend>
+              Student Curriculum
+              <tr>
+                <td rowspan="3">
+                  Hobbies
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+                <td rowspan="3">:</td>
+
+                <td>
+                  <label for="read"
+                    ><input
+                      type="checkbox"
+                      name="hobby"
+                      id="read"
+                      value="read"
+                    />Reading</label
+                  >
+                </td>
+
+                <td>
+                  <label for="search"
+                    ><input
+                      type="checkbox"
+                      name="hobby"
+                      id="search"
+                      value="search"
+                    />Searching</label
+                  >
+                </td>
+                <td rowspan="3">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td rowspan="3">Sports &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td rowspan="3">:</td>
+                <td>
+                  <label for="cricket"
+                    ><input
+                      type="checkbox"
+                      name="sport"
+                      id="cricket"
+                      value="cricket"
+                    />Cricket</label
+                  >
+                </td>
+
+                <td>
+                  <label for="hockey"
+                    ><input
+                      type="checkbox"
+                      name="sport"
+                      id="hockey"
+                      value="hockey"
+                    />Hockey</label
+                  >
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="gard"
+                    ><input
+                      type="checkbox"
+                      name="hobby"
+                      id="gard"
+                      value="gard"
+                    />Gardening</label
+                  >
+                </td>
+
+                <td>
+                  <label for="paint"
+                    ><input
+                      type="checkbox"
+                      name="hobby"
+                      id="paint"
+                      value="paint"
+                    />Painting</label
+                  >
+                </td>
+
+                <td>
+                  <label for="tennis"
+                    ><input
+                      type="checkbox"
+                      name="sport"
+                      id="tennis"
+                      value="tennis"
+                    />Tennis</label
+                  >
+                </td>
+
+                <td>
+                  <label for="swim">
+                    <input
+                      type="checkbox"
+                      name="sport"
+                      id="swim"
+                      value="swim"
+                    />Swiming</label
+                  >
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="photo"
+                    ><input
+                      type="checkbox"
+                      name="hobby"
+                      id="photo"
+                      value="photo"
+                    />Photography</label
+                  >
+                </td>
+
+                <td>
+                  <label for="crafts"
+                    ><input
+                      type="checkbox"
+                      name="hobby"
+                      id="crafts"
+                      value="crafts"
+                    />Crafting</label
+                  >
+                </td>
+
+                <td>
+                  <label for="athletics"
+                    ><input
+                      type="checkbox"
+                      name="sport"
+                      id="athletics"
+                      value="athletics"
+                    />Athletics</label
+                  >
+                </td>
+
+                <td>
+                  <label for="badminton">
+                    <input
+                      type="checkbox"
+                      name="sport"
+                      id="badminton"
+                      value="badminton"
+                    />Badminton</label
+                  >
+                </td>
+              </tr>
+            </legend>
+          </table>
+        </fieldset>
+        <br /><br /><br />
+        <!-- for admission -->
+        <fieldset style="width: 600px">
+          <table>
+            <legend>
+              Admission Required
+              <tr>
+                <td>
+                  <label for="sub"
+                    >Subject
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+                  >
+                </td>
+                <td>:</td>
+                <td>
+                  <select name="subject" id="sub" required>
+                    <option value="click here" disabled>click here</option>
+                    <option value="Web Developement">Web Developement</option>
+                    <option value="Graphic Design">Graphic Design</option>
+                    <option value="Word Press">Word Press</option>
+                    <option value="E-Commerce">E-Commerce</option>
+                    <option value="Digital Maketing">Digital Maketing</option>
+                    <option value="Tele Com">Tele Com</option>
+                    <option value="Blender">Blender</option>
+                    <option value="Shopify">Shopify</option>
+                  </select>
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                  <label for="camp"
+                    >Campus &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+                  >
+                </td>
+                <td>:</td>
+                <td>
+                  <select name="campus" id="camp" required>
+                    <option value="Nazimabad">Nazimabad</option>
+                    <option value="Aliabad">Aliabad</option>
+                    <option value="Gulshon">Gulshon</option>
+                    <option value="Nomaish">Nomaish</option>
+                    <option value="Gulistan-e-Johar">Gulistan-e-Johar</option>
+                    <option value="Clifton">Clifton</option>
+                    <option value="DHA">DHA</option>
+                    <option value="Saddar">Saddar</option>
+                    <option value="Nursery">Nursery</option></select
+                  >>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="7"></td>
+              </tr>
+              <tr>
+                <td colspan="7">
+                  Comments
+                  <label for="comment">
+                    <textarea
+                      name="text"
+                      id="comment"
+                      placeholder="Write here your comments.."
+                      cols="72"
+                      rows="5"
+                    ></textarea>
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="7"></td>
+              </tr>
+              <tr>
+                <td colspan="7"><input type="Submit" /></td>
+              </tr>
+            </legend>
+          </table>
+        </fieldset>
+      </form>
+    </center>
+  </body>
+</html>
